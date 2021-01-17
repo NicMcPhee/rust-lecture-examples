@@ -22,6 +22,7 @@ fn get_length(s: &String) -> usize {
 }
 
 fn generate_random_array(len: i32, min: i32, max:i32) -> Vec<i32> {
+    // Set up the random number generator
     let mut rng = thread_rng();
     let mut v = Vec::new();
     for _ in 0..len {
