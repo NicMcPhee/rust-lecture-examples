@@ -1,5 +1,7 @@
 use rand::{thread_rng, Rng};
 
+// A meaningless comment
+
 fn main() {
     let s = "Hello, world!".to_string();
     let l = get_length(&s);
